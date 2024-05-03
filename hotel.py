@@ -42,6 +42,6 @@ if st.button('Recommend'):
     i=0
     for name, link in recommendations:
    
-        st.write(f"Number {i+1}:", name)
+        st.write(f"Number {i+1}: ", name)
         st.markdown(f"[{link}]({link})")
         i+=1
